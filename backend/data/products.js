@@ -1,0 +1,148 @@
+const products = [
+  {
+    name: 'Wood Photo Frame',
+    image: '/images/frame.jpg',
+    description:
+      'it is different from the old black frames (which are outdated ). These frames provide a new funky look ',
+    brand: 'Generic',
+    category: 'Home Decoration Items',
+    price: 89.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 12,
+  },
+  {
+    name: 'SB-112 LED Sunset Lamp',
+    image: '/images/lamp2.jpg',
+    description:
+      'The lamp head can be rotated 360 degrees and can emit different lights from different angles, thereby bringing different effects to your room. The soft light is very suitable for lighting and taking pictures.',
+    brand: 'Teconica',
+    category: 'Home Decoration Items',
+    price: 599.99,
+    countInStock: 7,
+    rating: 4.0,
+    numReviews: 8,
+  },
+  {
+    name: 'Desk Lamp LED Touch On off',
+    image: '/images/Lamp.jpg',
+    description:
+      'Touch , Light Brightness : 3 Level Dimming , Light Source: LED Bulbs , Application: Reading, Studying, Working,Office,Bedroom',
+    brand: 'SaleOn',
+    category: 'Home Decoration Items',
+    price: 929.99,
+    countInStock: 5,
+    rating: 3,
+    numReviews: 12,
+  },
+  {
+    name: 'KWT Moon Lamp Light for Bedroom',
+    image: '/images/Lamp1.jpg',
+    description:
+      ' It is not only a lamp, it is a natural artwork, succinct and beautiful. Fit for any occasion you like. it can directly delivery to parents, kids, family members or friends as a gift. Perfect gift for child(kids) woman, friends at holiday or Diwali Gift, Christmas gift, birthday present, housewarming gift',
+    brand: 'KWT',
+    category: 'Home Decoration Items',
+    price: 399.99,
+    countInStock: 11,
+    rating: 5,
+    numReviews: 12,
+  },
+  {
+    name: 'Bubble Ball String LED Fairy Lights for Home',
+    image: '/images/lights.jpg',
+    description:
+      'Versatile colorful string lights can be controlled by the remote and is water resistant. With this you can create different ambience at the comfort of your hands just by switching lights on and the designer sequence of lights that are already preset. ',
+    brand: 'Pesca',
+    category: 'Home Decoration Items',
+    price: 49.99,
+    countInStock: 7,
+    rating: 3.5,
+    numReviews: 10,
+  },
+  {
+    name: 'Plastic LED Cinematic',
+    image: '/images/lights1.jpg',
+    description:
+      'It Can Be Used For Any Occasion : Birthday, Anniversary, Wedding, Special Event, Inspirational Quote, etc. Also Used At Shop, Cafe, Restaurant, Hotel Lobby, Corridor, Exhibition Hall, Home And So On. Made To Personalise To Create Your Own Messages. You Can Change The Messages As Often As You Like Simply By Sliding The Letters.',
+    brand: 'CraftDev',
+    category: 'Home Decoration Items',
+    price: 29.99,
+    countInStock: 0,
+    rating: 4,
+    numReviews: 12,
+  },
+  {
+    name: 'Wall Mounted Storage Shelf',
+    image: '/images/bathang.jpg',
+    description:
+      'It offers 5 tiers of ample vertical storage with beautifully styled rounded shelf corners. It is a practical solution for small space and a perfect way to add style to enhance and customize to your home.  ',
+    brand: 'Accad',
+    category: 'Home Decoration Items',
+    price: 89.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 12,
+  },
+  {
+    name: 'Wooden Wall Rack Shelves',
+    image: '/images/shelf1.jpg',
+    description:
+      'These shelves have a modish look.these shelves look stylish when placed together wall.It is easy to set on a wall.related hardware is included.color quality  the product is outstanding.it shines well.',
+    brand: 'Decoja',
+    category: 'Home Decoration Items',
+    price: 599.99,
+    countInStock: 7,
+    rating: 4.0,
+    numReviews: 8,
+  },
+  {
+    name: 'Wooden Wall U Rack Shelves',
+    image: '/images/Shelf.jpg',
+    description:
+      ' You can keep gifts,books and many other items in these shelves.Color quality of this product is outstanding.it shines well.it is one of the best product to decorate your house',
+    brand: 'SaleOn',
+    category: 'Home Decoration Items',
+    price: 929.99,
+    countInStock: 5,
+    rating: 3,
+    numReviews: 12,
+  },
+  {
+    name: 'Desk Metal Indoor pots Planters ',
+    image: '/images/pot.jpg',
+    description:
+      '  Rust free and glossy painted Metal planters with stand.White metal planters set comes with stand but without plants.Metal planters always give pleasent look as a home decor items instead of plastic pots.',
+    brand: 'KWT',
+    category: 'Home Decoration Items',
+    price: 399.99,
+    countInStock: 11,
+    rating: 5,
+    numReviews: 12,
+  },
+  {
+    name: 'Macrame Wooden Wall Hanging Shelf',
+    image: '/images/wallhang.jpg',
+    description:
+      'Urooz macramé hand-knotted Wall Hanging Shelves are rhyme of nature to your living space. Behind every design crafted by Urooz, there is a story. The story of craftsmanship of passionate fibre artists who are intricately crafting exquisite designs in styles that is giving macramé art a modern revival. ',
+    brand: 'Pesca',
+    category: 'Home Decoration Items',
+    price: 49.99,
+    countInStock: 7,
+    rating: 3.5,
+    numReviews: 10,
+  },
+  {
+    name: 'EaglesFord Rattan Flower Pot',
+    image: '/images/pot2.jpg',
+    description:
+      'Shop wide range of Flower Pot from the house of EaglesFord.White metal planters set comes with stand but without plants.Metal planters always give pleasent look as a home decor items instead of plastic pots.',
+    brand: 'CraftDev',
+    category: 'Home Decoration Items',
+    price: 29.99,
+    countInStock: 0,
+    rating: 4,
+    numReviews: 12,
+  },
+]
+
+export default products;
